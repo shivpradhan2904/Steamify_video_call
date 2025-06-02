@@ -1,6 +1,6 @@
 import toast, { LoaderIcon } from "react-hot-toast";
 import { useAuthUser } from "../hooks/useAuthUser";
-import OnBoarding from "../hooks/UseOnboarding"; // Custom hook to handle onboarding
+import OnBoarding from "../hooks/UseOnBoarding"; // Custom hook to handle onboarding
 import { useState } from "react";
 import { CameraIcon, MapPinIcon, ShuffleIcon, Webhook } from "lucide-react";
 import PageLoader from "../Components/PageLoader";
