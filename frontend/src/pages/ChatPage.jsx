@@ -5,7 +5,7 @@ import { useQuery } from "@tanstack/react-query";
 import { getStreamToken } from "../lib/api";
 import { StreamChat } from "stream-chat";
 import toast from "react-hot-toast";
-import ChatLoader from "../Components/chatLoader";
+import ChatLoader from "../Components/ChatLoader";
 const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY;
 import {
   Channel,
